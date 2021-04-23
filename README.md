@@ -10,9 +10,6 @@ This is a PyTorch implementation of our paper.
 ![](media/54ad677f39e072e1df5e16927a81563d.png)
 > Fig. 2. The analysis of the 3DBlock in the proposed CycN-Net.
 
-## Installation
-Please refer to requirment.txt for all required packages.
-
 ## Dataset
 The training dataset comes from the [4D-Lung Cancer Imaging Archive (TCIA)](https://wiki.cancerimagingarchive.net/display/Public/4D-Lung "4D-Lung Cancer Imaging Archive (TCIA)").
 
