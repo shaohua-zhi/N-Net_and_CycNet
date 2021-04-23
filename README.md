@@ -36,9 +36,11 @@ File model_Nnet.py illustrates the architecture model of N-Net.
 Please edit some settings in main_train_Nnet.py:
 
 -- Path of Training Dataset:
+
 ![](media/478d38a9f55394ddff57d0de3cfef7a4.png)
 
 -- Trained Model:
+
 ![](media/4f0e993601be57a742ca91762a588b7b.png)
 
 Memory requirement:
@@ -81,9 +83,11 @@ Please edit some settings in main_test_Nnet_XCAT.py:
 ![](media/6c8a8877cd5b93ae13b35828b68b0f28.png)
 
 -- Set save path:
+
 ![](media/4671c2a4dc086f744251c3a406ae624f.png)
 
 -- Load the testing dataset:
+
 ![](media/11cd5cd2070b4001e42c88b3ff6ee418.png)
 
 - For CycN-Net:
@@ -95,12 +99,15 @@ File TestingDataset_CycNnet_XCAT.py illustrates the testing dataset.
 Please edit some settings in main_test_CycNnet_XCAT.py:
 
 -- Load trained model:
+
 ![](media/352e4594d1236ee64bf583aff49a537f.png)
 
 -- Set save path:
+
 ![](media/210a6f92abfdacc23e0854bbf705f614.png)
 
 -- Load the testing dataset:
+
 ![](media/184e0cc91d8cf1e8969827d30710e2ab.png)
 
 *The detailed parameters of both N-Net and CycN-Net are displayed in Table I and II.*
