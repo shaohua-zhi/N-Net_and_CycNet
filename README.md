@@ -7,7 +7,7 @@ This is a PyTorch implementation of our paper.
 ![](network_architecture.png)
 > Fig. 1. The architecture of the proposed N-Net and CycN-Net. (a) the architecture of N-Net; (b) the cycle component in CycN-Net; (c) the convolution block or prior convolution block (Blcok/pBlock) in every layer of N-Net and 2-8 layers in CycN-Net. Each block consists of two convolutions, two PReLU functions; (d) the concatenation unit (C) that generates a stack of feature maps using different inputs. Note that unit C only activates input2 in N-Net while makes full use of three inputs in CycN-Net; (e) add unit (Add) that fuses the feature maps from inputs without changing the size; (f) transposed convolution unit (Tconv) that consists of two transpose convolutions and two PReLU functions; (g) final convolutional unit (FinalConv), consisting of two convolutions and two PReLU functions (FinalConv). By switching the single component in (a) into the cycle component in (b) with activating all the inputs in the C unit, the network comes to CycN-Net. The arrows in the left part of the figure denote different operations.
 
-![](media/54ad677f39e072e1df5e16927a81563d.tif)
+![](media/54ad677f39e072e1df5e16927a81563d.png)
 > Fig. 2. The analysis of the 3DBlock in the proposed CycN-Net.
 
 ## Installation
