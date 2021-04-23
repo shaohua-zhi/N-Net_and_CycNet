@@ -24,13 +24,13 @@ Read the training tutorial for details.
 
 - For the N-net:
 
-Conduct python main_train_Nnet.py to train the N-Net model.
+Run [main_train_Nnet.py](https://github.com/shaohua-zhi/N-Net_and_CycNet/blob/master/N-Net/main_train_Nnet.py "main_train_Nnet.py") to train the N-Net model.
 
-File TrainDataset_Nnet.py illustrates the training dataset.
+File [TrainDataset_Nnet.py](https://github.com/shaohua-zhi/N-Net_and_CycNet/blob/master/N-Net/TrainDataset_Nnet.py "TrainDataset_Nnet.py") illustrates the training dataset.
 
-File model_Nnet.py illustrates the architecture model of N-Net.
+File [model_Nnet.py](https://github.com/shaohua-zhi/N-Net_and_CycNet/blob/master/N-Net/model_Nnet.py "model_Nnet.py") illustrates the architecture model of N-Net.
 
-Please edit some settings in main_train_Nnet.py:
+Please edit some settings in [main_train_Nnet.py](https://github.com/shaohua-zhi/N-Net_and_CycNet/blob/master/N-Net/main_train_Nnet.py "main_train_Nnet.py"):
 
 -- Path of Training Dataset:
 
@@ -46,13 +46,13 @@ Memory requirement:
 
 - For CycN-Net:
 
-Conduct python main_train_CycNnet.py to train CycN-Net model.
+Run [main_train_CycNnet.py](https://github.com/shaohua-zhi/N-Net_and_CycNet/blob/master/CycN-Net/main_train_CycNnet.py "main_train_CycNnet.py") to train CycN-Net model.
 
-File TrainDataset_CycNnet.py illustrates the training dataset.
+File [TrainDataset_CycNnet.py](https://github.com/shaohua-zhi/N-Net_and_CycNet/blob/master/CycN-Net/TrainDataset_CycNnet.py "TrainDataset_CycNnet.py") illustrates the training dataset.
 
-File model_CycNnet.py illustrates the architecture model of CycN-Net.
+File [model_CycNnet.py](https://github.com/shaohua-zhi/N-Net_and_CycNet/blob/master/CycN-Net/model_CycNnet.py "model_CycNnet.py") illustrates the architecture model of CycN-Net.
 
-Please edit some settings in main_train_CycNnet.py: 
+Please edit some settings in [main_train_CycNnet.py](https://github.com/shaohua-zhi/N-Net_and_CycNet/blob/master/CycN-Net/main_train_CycNnet.py "main_train_CycNnet.py"): 
 
 -- Path of Training Dataset:
 
@@ -69,11 +69,11 @@ Memory requirement:
 ## Evaluation
 - For N-Net:
 
-Conduct python main_test_Nnet_XCAT.py to test the trained model.
+Run [main_test_Nnet_XCAT.py](https://github.com/shaohua-zhi/N-Net_and_CycNet/blob/master/N-Net/main_test_Nnet_XCAT.py "main_test_Nnet_XCAT.py") to test the trained model.
 
-File TestingDataset_Nnet_XCAT.py illustrates the testing dataset.
+File [TestingDataset_Nnet_XCAT.py](https://github.com/shaohua-zhi/N-Net_and_CycNet/blob/master/N-Net/TestingDataset_Nnet_XCAT.py "TestingDataset_Nnet_XCAT.py") illustrates the testing dataset.
 
-Please edit some settings in main_test_Nnet_XCAT.py:
+Please edit some settings in [main_test_Nnet_XCAT.py](https://github.com/shaohua-zhi/N-Net_and_CycNet/blob/master/N-Net/main_test_Nnet_XCAT.py "main_test_Nnet_XCAT.py"):
 
 -- Load trained model:
 
@@ -89,11 +89,11 @@ Please edit some settings in main_test_Nnet_XCAT.py:
 
 - For CycN-Net:
 
-Conduct python main_test_CycNnet_XCAT.py to test the trained model.
+Run [main_test_CycNnet_XCAT.py](https://github.com/shaohua-zhi/N-Net_and_CycNet/blob/master/CycN-Net/main_test_CycNnet_XCAT.py "main_test_CycNnet_XCAT.py") to test the trained model.
 
-File TestingDataset_CycNnet_XCAT.py illustrates the testing dataset.
+File [TestingDataset_CycNnet_XCAT.py](https://github.com/shaohua-zhi/N-Net_and_CycNet/blob/master/CycN-Net/TestingDataset_CycNnet_XCAT.py "TestingDataset_CycNnet_XCAT.py") illustrates the testing dataset.
 
-Please edit some settings in main_test_CycNnet_XCAT.py:
+Please edit some settings in [main_test_CycNnet_XCAT.py](https://github.com/shaohua-zhi/N-Net_and_CycNet/blob/master/CycN-Net/main_test_CycNnet_XCAT.py "main_test_CycNnet_XCAT.py"):
 
 -- Load trained model:
 
