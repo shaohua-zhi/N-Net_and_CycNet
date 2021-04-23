@@ -1,8 +1,32 @@
-# Nnet-and-CycNet
+# N-Net and CycNet
 
-By Shaohua Zhi, Marc Kachelrieß and Xuanqin Mou
+By [Shaohua Zhi](https://www.researchgate.net/profile/Shaohua-Zhi "Shaohua Zhi"), [Marc Kachelrieß](https://bit.ly/3bgnBbA "Marc Kachelrieß") and [Xuanqin Mou](https://bit.ly/3uSjR82 "Xuanqin Mou").
 
-This is a PyTorch implementation of the paper.
+This is a PyTorch implementation of our paper.
+
+## Installation
+Please refer to requirment.txt for all required packages.
+
+## Dataset
+The training data set comes from the [4D-Lung Cancer Imaging Archive (TCIA)](https://wiki.cancerimagingarchive.net/display/Public/4D-Lung "4D-Lung Cancer Imaging Archive (TCIA)").
+
+Please download the some sets of this data as you like for training. For this work, we used the following data ###HM10395 to train the network: ### = [100, 101, 102, 103, 104, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119].
+
+For the evaluation data set, several slices of XCAT phantom are provided here (url), while we cannot share the real patient data.
+
+Prepare data sets of 4D-CBCT/4D-CT as described in DatasetPreparation.md.
+
+## Training
+Read the training tutorial for details.
+
+- For the N-net:
+Conduct python main_train_Nnet.py to train the N-Net model.
+```
+File TrainDataset_Nnet.py illustrates the training dataset.
+File model_Nnet.py illustrates the architecture model of N-Net.
+Please edit some settings in main_train_Nnet.py:
+Path of Training data set:
+```
 
 | ![](<Network Architecture.png>)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
