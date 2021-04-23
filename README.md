@@ -42,11 +42,11 @@ Please refer to requirment.txt for all required packages.
 
 ## Dataset
 
-## The training dataset is from 4D-Lung dataset of Cancer imaging (url). 
+The training dataset is from 4D-Lung dataset of Cancer imaging (url). 
 
-## Please download the some sets of this data as you like for training. For this work, we used the following data \#\#\#HM10395 to train the network: \#\#\# = [100, 101, 102, 103, 104, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119].
+Please download the some sets of this data as you like for training. For this work, we used the following data \#\#\#HM10395 to train the network: \#\#\# = [100, 101, 102, 103, 104, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119].
 
-## For the evaluation dataset, several slices of XCAT phantom are provided here (url), while we can’t share the real patient data.
+For the evaluation dataset, several slices of XCAT phantom are provided here (url), while we can’t share the real patient data.
 
 Prepare datasets of 4D-CBCT/4D-CT as described in **DatasetPreparation.md**.
 
@@ -68,11 +68,11 @@ Please edit some settings in **main_train_Nnet.py:**
 
 ![](media/478d38a9f55394ddff57d0de3cfef7a4.png)
 
-1.  **Trained Model:**
+2.  **Trained Model:**
 
 ![](media/4f0e993601be57a742ca91762a588b7b.png)
 
-Memory requirement:
+3.  **Memory requirement:**
 
 1GPU: NVIDIA GeForce RTX 2080 (8GB)
 
@@ -90,11 +90,11 @@ Please edit some settings in **main_train_CycNnet.py:**
 
 ![](media/6e4af40b9a732c074a089eb24c89b1de.png)
 
-1.  **Trained Model:**
+2.  **Trained Model:**
 
 ![](media/37af13dfa2a7a4c03e0a1be111155590.png)
 
-**Memory requirement:**
+3.  **Memory requirement:**
 
 3GPUs: NVIDIA GeForce GTX 1080 (8GB)
 
