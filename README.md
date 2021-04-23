@@ -26,6 +26,7 @@ Prepare datasets of 4D-CBCT/4D-CT as described in [DatasetPreparation.md](https:
 Read the training tutorial for details.
 
 - For the N-net:
+
 Conduct python main_train_Nnet.py to train the N-Net model.
 
 File TrainDataset_Nnet.py illustrates the training dataset.
@@ -33,44 +34,72 @@ File TrainDataset_Nnet.py illustrates the training dataset.
 File model_Nnet.py illustrates the architecture model of N-Net.
 
 Please edit some settings in main_train_Nnet.py:
+
 -- Path of Training Dataset:
 ![](media/478d38a9f55394ddff57d0de3cfef7a4.png)
+
 -- Trained Model:
 ![](media/4f0e993601be57a742ca91762a588b7b.png)
+
 Memory requirement:
+
 1 GPU: NVIDIA GeForce RTX 2080 (8GB)
+
 - For CycN-Net:
+
 Conduct python main_train_CycNnet.py to train CycN-Net model.
+
 File TrainDataset_CycNnet.py illustrates the training dataset.
+
 File model_CycNnet.py illustrates the architecture model of CycN-Net.
+
 Please edit some settings in main_train_CycNnet.py: 
+
 -- Path of Training Dataset:
+
 ![](media/6e4af40b9a732c074a089eb24c89b1de.png)
+
 -- Trained Model:
+
 ![](media/37af13dfa2a7a4c03e0a1be111155590.png)
+
 Memory requirement:
+
 3 GPUs: NVIDIA GeForce GTX 1080 (8GB)
 
 ## Evaluation
 - For N-Net:
+
 Conduct python main_test_Nnet_XCAT.py to test the trained model.
+
 File TestingDataset_Nnet_XCAT.py illustrates the testing dataset.
+
 Please edit some settings in main_test_Nnet_XCAT.py:
+
 -- Load trained model:
+
 ![](media/6c8a8877cd5b93ae13b35828b68b0f28.png)
+
 -- Set save path:
 ![](media/4671c2a4dc086f744251c3a406ae624f.png)
+
 -- Load the testing dataset:
 ![](media/11cd5cd2070b4001e42c88b3ff6ee418.png)
 
 - For CycN-Net:
+
 Conduct python main_test_CycNnet_XCAT.py to test the trained model.
+
 File TestingDataset_CycNnet_XCAT.py illustrates the testing dataset.
+
 Please edit some settings in main_test_CycNnet_XCAT.py:
+
 -- Load trained model:
 ![](media/352e4594d1236ee64bf583aff49a537f.png)
+
 -- Set save path:
 ![](media/210a6f92abfdacc23e0854bbf705f614.png)
+
 -- Load the testing dataset:
 ![](media/184e0cc91d8cf1e8969827d30710e2ab.png)
 
