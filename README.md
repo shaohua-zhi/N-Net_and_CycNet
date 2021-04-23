@@ -1,7 +1,5 @@
 # Nnet-and-CycNet
 
-**N-Net and CycN-Net**
-
 By Shaohua Zhi, Marc Kachelrieß and Xuanqin Mou
 
 This is a Pytorch implementation of the paper. (In updating)
