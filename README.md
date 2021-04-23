@@ -27,8 +27,11 @@ Read the training tutorial for details.
 
 - For the N-net:
 Conduct python main_train_Nnet.py to train the N-Net model.
+
 File TrainDataset_Nnet.py illustrates the training dataset.
+
 File model_Nnet.py illustrates the architecture model of N-Net.
+
 Please edit some settings in main_train_Nnet.py:
 -- Path of Training Dataset:
 ![](media/478d38a9f55394ddff57d0de3cfef7a4.png)
