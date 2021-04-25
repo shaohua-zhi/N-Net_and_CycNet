@@ -52,9 +52,9 @@ y_transform = T.ToTensor()
 
 
 train_dataset_4DCBCT = Nnet_Dataset(
-        'E:/Pytorch/4DCBCT_TrainingData/'
-		,'E:/Pytorch/4DCBCT_TrainingData/'
-		,'E:/Pytorch/4DCBCT_TrainingData/'
+        './training_dataset/'
+		,'./training_dataset/'
+		,'./training_dataset/'
         ,HMIndex
         ,SliceNum
         , transform = x_transform
