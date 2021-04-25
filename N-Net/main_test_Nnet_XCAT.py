@@ -49,9 +49,9 @@ SliceNum = 160
 for SetIndex in range(0, 1):
     
     test_dataset_4DCBCT = Test_XCATdataset(
-            './4DCBCT_TestingData/XCAT_female_512_slice/'  
-			,'./4DCBCT_TestingData/XCAT_female_512_slice/'
-			,'./4DCBCT_TestingData/XCAT_female_512_slice/'			
+            './test_dataset/'  
+			,'./test_dataset/'
+			,'./test_dataset/'			
             , SliceNum
             , transform = x_transform
             , target_transform = y_transform
