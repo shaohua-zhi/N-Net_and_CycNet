@@ -47,9 +47,9 @@ HMIndex = [ 100, 101, 102, 103, 104, 108, 109, 110, 111, 112, 113, 114, 115, 116
 
 
 train_dataset_4DCBCT = TrainDataset_CircleNnet3D(
-        './4DCBCT_TrainingData/'
-        ,'./4DCBCT_TrainingData/'
-		,'./4DCBCT_TrainingData/'
+        './training_dataset/'
+        ,'./training_dataset/'
+		,'./training_dataset/'
         ,HMIndex
         ,SliceNum
         , transform = x_transform
