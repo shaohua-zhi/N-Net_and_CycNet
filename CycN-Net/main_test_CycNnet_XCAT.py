@@ -44,9 +44,9 @@ y_transform = T.ToTensor()
 SliceNum = 160
 
 dataset_4DCBCT = TestingDataset_XCAT(
-        './4DCBCT_TestingData/XCAT_female_512_slice/'
-        ,'./4DCBCT_TestingData/XCAT_female_512_slice/'
-		,'./4DCBCT_TestingData/XCAT_female_512_slice/'
+        './test_dataset/'
+        ,'./test_dataset/'
+		,'./test_dataset/'
         ,SliceNum
         ,transform = x_transform
         ,target_transform = y_transform
