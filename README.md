@@ -1,6 +1,6 @@
 # N-Net and CycNet
 
-By [Shaohua Zhi](https://www.researchgate.net/profile/Shaohua-Zhi "Shaohua Zhi"), [Marc Kachelrieß](https://bit.ly/3bgnBbA "Marc Kachelrieß") and [Xuanqin Mou](https://bit.ly/3uSjR82 "Xuanqin Mou").
+By [Shaohua Zhi](https://www.researchgate.net/profile/Shaohua-Zhi "Shaohua Zhi"), [Marc Kachelrieß](https://bit.ly/3bgnBbA "Marc Kachelrieß"), [Fei Pan](https://www.researchgate.net/profile/Fei-Pan-12 "Fei Pan"), and [Xuanqin Mou](https://bit.ly/3uSjR82 "Xuanqin Mou").
 
 This is a PyTorch implementation of our paper.
 
