@@ -8,3 +8,5 @@ reconstruction) and the corresponding ground truth is illustrated in the figure
 below.
 
 ![](media/0e7d1ae59447a341a868d437f616d82a.png)
+
+
